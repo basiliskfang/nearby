@@ -1,0 +1,4 @@
+.ui-page {
+    /* Supposed to reduce flickering, but screwed up Ice Cream Sandwich. */
+    -webkit-backface-visibility: hidden;
+}
